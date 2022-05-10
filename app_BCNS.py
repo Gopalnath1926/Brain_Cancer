@@ -19,7 +19,7 @@ def prediction(age,cs_v,RX_s,year,icd_b,cs_ex,first_malignant,gde,cs_c,primary_s
     #ann_pred=model.predict([[age,cs_v,RX_s,year,icd_b,cs_ex,first_malignant,gde,cs_c,primary_s,ss,lt]])
     ann_pred=model.predict_proba([[age,cs_v,RX_s,year,icd_b,cs_ex,first_malignant,gde,cs_c,primary_s,ss,lt]])
 
-    pred=ann_pred[0,1]*100
+    pred=round(ann_pred[0,1]*100,2)
  
 
     
