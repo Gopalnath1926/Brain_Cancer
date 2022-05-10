@@ -252,4 +252,4 @@ with col2:
     # and store it in the variable result
      if st.button("Predict"):
         result = prediction(age,cs_v,RX_s,year,icd_b,cs_ex,first_malignant,gde,cs_c,primary_s,ss,lt)
-     st.success('The 10-year survival probability is  --- {}%'.format(result))
+     st.success('The 10-year survival probability is  --- {} %'.format(result))
