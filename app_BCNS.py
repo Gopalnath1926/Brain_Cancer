@@ -253,3 +253,4 @@ with col2:
      if st.button("Predict"):
         result = prediction(age,cs_v,RX_s,year,icd_b,cs_ex,first_malignant,gde,cs_c,primary_s,ss,lt)
      st.success('The 10-year survival probability is  --- {} %'.format(result))
+st.write('_NB:This prototype (developed based on a limited number of observations) is intended only for demonstration of the proposal tool and not as a substitute for professional medical advice, consultation, diagnosis, or treatment. The authors and the institution do not guarantee the outcome of this prototype for any particular patient._')
