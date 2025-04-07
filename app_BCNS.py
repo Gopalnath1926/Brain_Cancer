@@ -44,7 +44,7 @@ def main():
 
     html_temp = """
     <div style ="background-color:turquoise;padding:9px">
-    <h1 style ="color:black;text-align:center;">BCNS TOOL-Prototype </h1>
+    <h1 style ="color:black;text-align:center;">BCNS TOOL-Check </h1>
     </div>
     """
 
